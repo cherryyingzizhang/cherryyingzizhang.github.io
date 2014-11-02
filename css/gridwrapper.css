@@ -1,0 +1,18 @@
+.wrapper {
+    overflow:hidden;
+    width:320px;
+}
+.wrapper div {
+    /* any width up to (total img width) * (num_columns) */
+    /* the rest will be chopped off by overflow:hidden */
+    width:390px;
+
+    /* chops off top "padding" of inner div (first row imgs top margin) */
+    margin-top:-10px;
+}
+img {
+    height: 120px;
+    width: 120px;
+    float:left;
+    margin:10px 10px 0 0;
+}

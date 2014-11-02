@@ -1,4 +1,4 @@
-#myCarousel {
+/*#myCarousel {
     width: 100%;
 }
 .carousel-control {
@@ -25,7 +25,7 @@
 }
 .ad3 {
     background: url("../3.jpg") no-repeat center center fixed; 
-}
+}*/
 
 div.centre
 {
@@ -71,9 +71,27 @@ html {
        height:30px;
    }
 */
+/*
 
 .carousel-control.left, .carousel-control.right {
-    background-image: url("../next.png") no-repeat center center fixed !important;
+    //background-image: url("../next.png") no-repeat center fixed !important;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    font-family: serif;
+}
+
+.carousel-control.left {
+  left: 5%
+}
+
+.carousel-control.right {
+  right: 5%
 }
 
 #main_content_wrap {
@@ -94,3 +112,4 @@ html {
   .outer {
   width: 100%;
 }
+*/
