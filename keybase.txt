@@ -1,0 +1,77 @@
+==================================================================
+https://keybase.io/phantomkirby
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://cherryzhang.net
+  * I am phantomkirby (https://keybase.io/phantomkirby) on keybase.
+  * I have a public key with fingerprint 8218 27AB 90DF D312 7B3D  0EC4 8101 7BAD 9120 043B
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.2"
+        },
+        "key": {
+            "fingerprint": "821827ab90dfd3127b3d0ec481017bad9120043b",
+            "host": "keybase.io",
+            "key_id": "81017BAD9120043B",
+            "uid": "855def1972c87233e380a80907a46600",
+            "username": "phantomkirby"
+        },
+        "merkle_root": {
+            "ctime": 1415895417,
+            "hash": "7e1a7a024110b26fd259870fe0c99218955419d64681235c27cf8c0db98cbd0337d80427a9f9579109480b2eb6f4b1c9d247db763a8a3b65e4241b61b3f59af9",
+            "seqno": 95231
+        },
+        "service": {
+            "hostname": "cherryzhang.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1415895742,
+    "expire_in": 157680000,
+    "prev": "21539d4793cc4aed168ce45d35286d11b2f5fbdd21e82e91e62036852fd02faa",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFVkm1sFEUYx+/EtnpKA0IISUmsS4zQ1GNmdmZn5nyJNkQrvpBgwS8m58zOTG/7
+snvd2x4e5IJRlLSJWNAY5YNKiBowiqYkDRiL4UMxIRpjCEFQkQ/Empr4hl5UXtzB
+M8p+ms3zm///+T/PTMyfl8llt88dnxyh9zydPfa9zPSpU9ObHRmpmlPY7PhDgQ4T
+ewrFsHYKzqCuSVHR+SDqDCOl8wOVzibT7VR1XAmiMKVAnuaRU++2uL1sgrBfx+U4
+sFoOQ5AhKiQHyigXIipdBbSPGQSQSqE4RABgV6aSpaiSXOXqXNEsBsrqWL7n3tVN
+vietjf5TIERpAzlFPqPIdbXLgGCAAyqw5wFgwYqOm5HKJREm0fBgEMua7XlYx4ND
+uhhH0ZXgfhJYDGJIGCcY0rQrUSmlF6mGggqAMIRAIs8oRDijwGjgc55m5CTFufKw
+xyByiY+ob5gPlOTMlwq4LlUM4HQS3HBCOQQcs1RIS89gCX2uEKZKUs8VTLjSIxqn
+VtKD0jWEC8PTGBU9EkZOgRPkwrr9jauBr23bdnLNgH5Jx3FtUxqzPx9qu6lyHCWR
+Hw2lxVKSlAs2dlIra2ey4GzUstjUKcogVOnq/r9ba3P1SChG3Y5+shzEuhhYglCP
+gfSzPrqaeiBIXK4w5a7vY6EV9JivMVEuQcxTEEpkiJFKIagZ0hxqDwHXYwQZBZAR
+4r+g6fAT0Z9KVoL+UCSjsXbqY9ll12ayuUxryzX28WZy1y/490W37267/Gj1BrN4
+2b5XPvqxhfSO3tKTaYRbLh38s33T1BQd79rZuXOu4/7pdY909OZmT3SN720Zeef2
+3Mzk5TW/nW8/sPHrc9lf3v+j8XjHJXNT25svfNa6P398buH5+i55YcNDn9yHOw7t
+vW6k74GLN37+O1QX28SRn8wz2+9u3Drw/ED56Mmfl5yayr9625nkxW82jD31674F
+h7997+bXTRSc3tI13rdu4qzfwJ+Gfx2bWj6wFF843Dr78Z7Xvtix++1np1eMTdy5
+YklVPrdoh36Cbz1rvlt7ctX+7Ae9byxddO7Atpf1+LbHpo+s/vCrLxcvX/Xwysb8
+PWvmoZm3Xqo/WBezW3dVz9x1+mj0w/qZO068+zc=
+=ja9m
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/phantomkirby
+
+==================================================================
