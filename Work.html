@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="My personal website.">
   <meta name="author" content="Cherry Zhang">
-  <link rel="icon" href="favicon.ico" type="image/x-icon" >
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" >
   <title>Cherry Zhang - My Past Experiences and Education</title>
   <meta name="Cherry Zhang" content="Welcome to my website. I am also known as phantomkirby on the internet. I list all of my experiences, education, and accomplishments on this website!">
 
@@ -22,6 +22,9 @@
   <script type="text/javascript"src="netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> 
   <link href="netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/navbarcss.css" rel="stylesheet">
+
+  <!--Gets the "center video iframe" style-->
+  <link href="css/center.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet">
@@ -162,17 +165,6 @@
     <!-- /modal windows -->
 
     <style type="text/css">
-      .myimg:hover {
-        opacity: 0.5
-      }
-    </style>
-
-    <div id="main_content_wrap" class="outer" align="center">
-      <h1>List of Skills:</h1>
-      <h4><em>(Click on the icons below)</em></h4>
-    </div>
-
-    <style type="text/css">
       .wrapper {
         margin-left: auto;
         margin-right: auto;
@@ -182,33 +174,64 @@
       .myimg {
         cursor: pointer;
       }
+      .myimg:hover {
+        opacity: 0.5
+      }
+
+      @media (min-width: 700px) {
+        .myimg {
+          padding-top: 0px;
+          width: 120px;
+          height: 120px;
+        }
+      }
+
+      @media (max-width: 700px) {
+        .myimg {
+          padding-top: 0px;
+          width: 60%;
+          height: 60%;
+        }
+        #main_content_wrap {
+          text-align: left;
+          margin-left: 5%
+        }
+      }
     </style>
+
+    <div id="main_content_wrap" class="outer" align="center">
+      <h1>List of Skills:</h1>
+      <h4><em>(Click on the icons below)</em></h4>
+    </div>
 
     <!--grid-->
     <div class="wrapper" align="center">
       <div>
-          <img class="myimg md-trigger" src="assets/java.png" data-modal="java" width="120" height="120">
-          <img class="myimg md-trigger" src="assets/csharp.png" data-modal="csharp" width="120" height="120">
-          <img class="myimg md-trigger" src="assets/cplusplus.jpg" data-modal="cplusplus" width="120" height="120">
-          <img class="myimg md-trigger" src="assets/html5.png" data-modal="html" width="120" height="120">
-          <img class="myimg md-trigger" src="assets/css3.png" data-modal="css" width="120" height="120">
-          <img class="myimg md-trigger" src="assets/javascript.png" data-modal="javascript" width="120" height="120">
+          <img class="myimg md-trigger" src="assets/java.png" data-modal="java" ali>
+          <img class="myimg md-trigger" src="assets/csharp.png" data-modal="csharp">
+          <img class="myimg md-trigger" src="assets/cplusplus.jpg" data-modal="cplusplus">
+          <img class="myimg md-trigger" src="assets/html5.png" data-modal="html">
+          <img class="myimg md-trigger" src="assets/css3.png" data-modal="css">
+          <img class="myimg md-trigger" src="assets/javascript.png" data-modal="javascript">
       </div>
     </div>
     <!--/grid-->
 
     <style type="text/css">
-    .outer
+    @media (min-width: 978px)
     {
-      margin-left: 150px;
-      margin-right: 150px;
+      .outer
+      {
+        margin-left: 150px;
+        margin-right: 150px;
+      }
     }
     </style>
 
   <div class="container marketing">
 
     <div id="main_content_wrap" class="outer">
-      <p><br><br>Welcome to my "Work and Experience" page! The reason why I have so many internships, despite being an undergrad, is because my university has a co-op system where I take 4 months of co-op, 4 months of school, and this cycle repeats until I graduate. Therefore, I am (going) to have lots of internships and experience. I made this website in a weekend, while first learning HTML/CSS on that weekend. Although I am new to web dev, my biggest strong point is Java, Android, and C#. I also know C++.</p>
+      <p><br><br>This page introduces the skills, internships, and projects that I have done. It is the main part of this portfolio website. The reason why I have so many internships, despite being an undergraduate student, is because my university has a continuous co-op system where I take alternating 4 months of co-op and 4 months of school until I graduate. Therefore, I will have lots of internships and experience. I am looking forward to pursuing graduate studies in the future in the following fields: robotics, artificial intelligence (particularly affective computing and machine learning), and psychology.</p>
 
       <hr>
 
@@ -218,20 +241,24 @@
       <h3>
       <a name="android-developer-and-research-assistant-at-the-university-of-waterloo" class="anchor" href="#android-developer-and-research-assistant-at-the-university-of-waterloo"><span class="octicon octicon-link"></span></a>2014 - Android Developer and Research Assistant at the University of Waterloo</h3>
 
-      <p>My job was to research and develop an android application for people with reading disabilities. It was to be 
-      an improvement from an earlier prototypal concept written in VBA. I participated in every part of the 
-      software’s lifecycle.</p>
+      <p>My job was to research and develop a rehabilitative android application for people with reading disabilities. It is an improvement from an earlier prototypal concept written in VBA. I participated in every part of the 
+      software’s lifecycle. I am also aiming to be the lead author on a published conference paper on this topic. Below, you can see a video on how the current research is going.</p>
 
       <ul>
-      <li>Research – researched in academic literature and wrote a research paper elaborating upon the rehabilitation of various reading disabilities</li>
-      <li>Design – Learned VBA in 1 day, reviewed/debugged an already made prototype of the application in VBA, and decided 
-      on which parts to improve/port over to the Android app, and which parts to scrap</li>
-      <li>Software Documentation – product requirements, functional specifications, and design specifications</li>
-      <li>Development – developed the application on Android with the Eclipse IDE</li>
+      <li>Research – researched in academic literature and wrote a literature review, elaborating upon the rehabilitation of various reading disabilities</li>
+      <li>Design – Learned VBA in 1 day, reviewed/debugged an already made prototype of the application in VBA, and decided on which parts to improve/port over to the Android app, and which parts to scrap</li>
+      <li>Software Documentation – wrote product requirements, functional specifications, and design specifications</li>
+      <li>Development – developed the application on Android with the Eclipse IDE (ported it to Android Studio afterwards)</li>
       <li>Debugging – debugged the application with steps/breaks and logging</li>
       <li>Testing – tested the application side-by-side with an actual user who has a reading disability, among 
       other users (mostly by using LogCat and step/breaks)</li>
-      </ul><h3>
+      </ul>
+
+      <div class="videoWrapper">
+      <iframe align="middle" width="560" height="315" src="https://www.youtube.com/embed/e90HA5U9eRI" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <h3>
       <a name="android-software-engineer-at-imaggle-inc-in-tokyo-japan" class="anchor" href="#android-software-engineer-at-imaggle-inc-in-tokyo-japan"><span class="octicon octicon-link"></span></a>2014 - Android Software Engineering Intern at Imaggle Inc (in Tokyo, Japan)</h3>
 
       <p>My job was to make an Android version of the currently existing iOS Imaggle application. It is an app similar to eBay, but for mobile phones. The app also specifically is for the buying and selling of womens' clothing.</p>
@@ -241,24 +268,59 @@
       <li>used Parse as the backend and the Bolts framework to do serial and parallel asynchronous tasks</li>
       <li>used Aviary SDK, Picasso SDK, a bit of AWS S3, and other technologies</li>
       </ul>
+
       <h3>
       <a name="software-engineer-at-microsoft-japan" class="anchor" href="#software-engineer-at-microsoft-japan"><span class="octicon octicon-link"></span></a>2014 - Software Engineer Intern at Microsoft (Japan)</h3>
 
-      <p>I was on the Sway team. I have  designed and implemented various algorithms and data structures for generating suggested content, including implementing various other experimental features as well. I also improved the UI and UX experiences on the client application, creating custom gesture features.</p>
+      <p>I was on the Sway team. I have designed and implemented various algorithms and data structures for generating suggested content, including implementing various other experimental features as well. I also improved the UI and UX experiences on the client application, creating custom gesture features.</p>
 
       <h3>
       <a name="software-engineer-at-microsoft-japan" class="anchor" href="#software-engineer-at-microsoft-japan"><span class="octicon octicon-link"></span></a>2015 - Software Engineer Intern at Microsoft (Japan)</h3>
 
-      <p>I am currently on the Windows Office Lens Team. I can't talk much about it right now, but I'm having fun learning C#, Visual Studio, Windows Mobile App Development, and more. Some cool things I am doing is implementing memory management, image processing, etc.</p>
+      <p>I Worked on Windows 10 Office Lens, an image processing app that can scan documents, whiteboards, etc. on your mobile device with real-time edge detection.</p>
+
+      <ul>
+      <li>worked with the camera and orientation sensor</li>
+      <li>worked on integrating the image processing libraries to the main application</li>
+      <li>worked on concurrency, memory optimization and management</li>
+      <li>implemented image encoding/decoding</li>
+      <li>optimized and tested of the speed of the image processing and real-time edge detection</li>
+      </ul>
+
+      <h3>
+      <a name="research-assistant-at-the-university-of-waterloo" class="anchor" href="#research-assistant-at-the-university-of-waterloo"><span class="octicon octicon-link"></span></a>2016 - Research Assistant at the University of Waterloo</h3>
+
+      <p>My job was to continue the original research back in 2014 on developing rehabilitative software for pure alexics. I updated the code for the latest version of Android OS, I am introducing a server for data aggregation and analytics for this rare disorder for the purpose of research, and aiming to become the lead author on a published conference paper on this topic.</p>
+
+      <p>My professor and I are also collaborating with Dr. Marsha Linehan (University of Washington and Linehan Institute) to create a software application that will be used alongside traditional dialectical behavioral therapy (DBT - used to treat people with various mental health issues including SUD and BPD). The technologies we will be using are iOS and the LAMP stack.</p>
 
       <hr>
 
       <h1 id = "side-projects">
       <a name="side-projects" class="anchor" href="#side-projects"><span class="octicon octicon-link"></span></a>Side Projects</h1>
 
+      <h3><a name="ml" class="anchor" href="#machine-learning"><span class="octicon octicon-link"></span></a>2015 to Current - Machine Learning Projects</h3>
+
+      <p>I have been interested in machine learning and its applications for quite some time and have invested time into learning about fundamental machine learning algorithms, data cleaning and aggregation/web-scraping, and the applications of machine learning specifically in robotics.</p>
+
+      <ul>
+      <li>Completed machine learning course (Stanford/Coursera). <a href="https://github.com/phantomkirby/ml-stanford">Click here for Github repo of completed assignments.</a></li>
+      <li>Completed several projects including: recipe recommender (described later on this page), predicting survival on the <a href="https://github.com/phantomkirby/kaggle">Titanic</a>, <a href="https://github.com/phantomkirby/ml-stanford/tree/master/machine-learning-ex4/ex4">digit recognition</a> with a 3-layer backprop neural network (using the MNIST dataset)</li>
+      <li>I am conducting an ongoing project to build a self-driving car (made with Raspberry Pi) using various machine learning algorithms, including: convolutional neural networks and imitation learning (paper on imitation learning algorithm is <a href="https://www.cs.cmu.edu/~sross1/publications/Ross-AIStats11-NoRegret.pdf">here</a>)</li>
+      </ul>
+
+      <h3><a name="airobotics" class="anchor" href="#ai-robotics"><span class="octicon octicon-link"></span></a>2016 to Current - Artificial Intelligence for Robotics</h3>
+
+      <p>I have been taking a course to learn more about common algorithms and topics in AI for robotics. I am currently taking CS 373 by Georgia Tech/Udacity.</p>
+
+      <ul>
+      <li>Learned: Monte Carlo Localization, Kalman Filters <a href="https://github.com/phantomkirby/AIrobotics">Click here for Github repo of completed assignments.</a></li>
+      <li>Will Learn: Particle Filters, Search, PID Control, SLAM, and complete the course's final project</li>
+      </ul>
+
       <h3><a name="html-parser" class="anchor" href="#html-parser"><span class="octicon octicon-link"></span></a>2013 - HTML Parser</h3>
 
-      <p>An Android application. You can choose an html file from the phone's sd card and then it will actually parse the HTML and display it on the screen. I did not use any HTML parsing libraries and implemented the entire parsing algorithm myself, by first writing pseudo code/thinking about it for a while, and then typing up the real code/debugging later. I also did no prior research, so the algorithm was very "brute-force" and is totally original.</p>
+      <p>An Android application. You can choose an html file (.txt) from the phone's internal storage and then it will actually parse the HTML and display it on the screen. I did not use any HTML parsing libraries and implemented the entire parsing algorithm myself, by first writing pseudo code, and then typing up the real code/debugging later. The algorithm is not based off of any known parsing algorithms so in a sense, it is very "brute-forced" and original.</p>
 
       <h3><a name="android-side-projects" class="anchor" href="#android-side-projects"><span class="octicon octicon-link"></span></a>Android Side Projects</h3>
 
@@ -310,7 +372,7 @@
 
       <hr >
 
-      <h2>Bonus</h2>
+      <!-- <h2>Bonus</h2>
       <h3>Arduino Project - Playing the Mario Theme with a Piezo Buzzer</h3>
 
       <p>This was actually a video I made back in high school when I first played around with my Arduino. I just wanted to put this video on my website to showcase the fact that I have some hardware experience, and that I have experience both from side projects and school/university projects using the Arduino. I have also recently won a Raspberry Pi from a contest by Global Hackathon Seoul.</p>
@@ -319,7 +381,7 @@
           <source src="assets/mario.mp4" type="video/mp4">
           <source src="movie.ogg" type="video/ogg">
             Your browser does not support the video tag.
-        </video>
+        </video> -->
 
       
     </div>
@@ -329,7 +391,7 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#top">Back to top</a></p>
-        <p>© 2014 Cherry Zhang.</p>
+        <p>© 2016 Cherry Zhang.</p>
       </footer>
 
     </div><!-- /.container -->
