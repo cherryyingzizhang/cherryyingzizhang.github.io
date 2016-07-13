@@ -57,3 +57,16 @@
 		background-color: #ca726b !important;
 	}
 }
+
+@media (min-width: 768px) {
+    .navbar-custom .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        margin-left: -10%;
+    }
+
+    .navbar-custom .navbar-collapse {
+        text-align: center;
+    }
+}
