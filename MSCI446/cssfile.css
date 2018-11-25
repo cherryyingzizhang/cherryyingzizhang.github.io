@@ -26,3 +26,16 @@ embed {
 img {
 	max-width: 100%
 }
+
+.flex-parent-regression {
+  display: flex;
+  height: 60%;
+  align: bottom;
+  margin-left: -2%;
+}
+.flex-child-regression {
+  flex: 1;
+  height: 100%;
+  margin-right: -5%;
+  margin-left: -1%;
+}
