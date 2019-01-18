@@ -1,0 +1,218 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MTE FYDP GROUP 46</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/font-icon.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+<!-- header section -->
+<section class="banner" role="banner">
+  <header id="header">
+    <div class="header-content clearfix"> <a class="logo" href="index.html">MTE FYDP GROUP 46</img></a>
+      <nav class="navigation" role="navigation">
+        <ul class="primary-nav">
+          <li><a href="#intro">Purpose</a></li>
+          <!-- <li><a href="#services">services</a></li>
+          <li><a href="#works">Works</a></li> -->
+          <li><a href="#services">Specifications</a></li>
+          <li><a href="#works">Design</a></li>
+          <li><a href="#teams">About</a></li>
+          <!-- <li><a href="#solution">Our Solution</a></li> -->
+          <!-- <li><a href="#contact">Contact</a></li> -->
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+  </header>
+  <!-- banner text -->
+  <div class="container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="banner-text text-center">
+        <!-- <h1 id="banner"><i>Into the depths</i></h1> -->
+        <!-- <a href="#" class="btn btn-large">Find out more</a> </div> -->
+      <!-- banner text -->
+    </div>
+  </div>
+</section>
+<!-- header section -->
+
+
+<!-- intro section -->
+<section id="intro" class="section intro">
+  <div class="container">
+    <div id="intro-inner" class="col-md-8 col-md-offset-2 text-center">
+      <h3>Background</h3>
+      <p>Advanced AI-controlled robots are still not adaptive nor intelligent enough right now to do general tasks effectively. The company, Jinki, attempts to circumvent this issue by having the human operator at the forefront as the sole controller of the robot and all of its tasks. Humans are better at general decision making and can adapt better to novel situations than even the latest developed AIs. This type of control system, with a human operator controlling everything, is called a ‘master-slave system’.</p>
+      <h3>Problem</h3>
+      <p>Jinki, the sponsor of this project, has created and patented a novel feedback system called ‘force projecting bilateral control’ and wants to compare it with other known and established master-slave control methods for the purposes of demonstrating the uniqueness and efficacy of their control system to relevant stakeholders.</p>
+      <h3>Solution</h3>
+      <p>Group 46 will design two robotic arms - one as the master and the other as the slave - evaluate the different master-slave control designs.</p>
+      <!-- <a href="#solution" class="btn btn-large">Find out more</a> </div> -->
+    </div>
+  </div>
+</section>
+<!-- intro section -->
+
+
+<!-- services section -->
+<section id="services" class="services service-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 services text-center"> 
+	  <!-- <span class="icon icon-strategy"></span>  -->
+	    <span style="font-size: 50px; color: DeepSkyBlue;"><i class="fas fa-cogs"></i></span>
+        <div class="services-content">
+          <h5>Mechanical</h5>
+		  <p>Two identical robotic arms will be made where one is the master and the other is the slave. Each arm has four rigid links that are connected in a parallelogram shape. Two motors will actuate two of the links, and the other two links will move passively. This configuration provides stability as both motors will be connected to the arm at the same stable base. The human operator can then move the master (or even the slave) at the end effector.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 services text-center"> 
+		<!-- <span class="icon icon-book-open"></span> -->
+		<span style="font-size: 50px; color: DeepSkyBlue;"><i class="fas fa-plug"></i></span>
+        <div class="services-content">
+          <h5>Electrical</h5>
+          <p>Each robotic arm will have two DC motors actuating them, and a capacitative force sensor to measure the Mz torque and the Fx and Fy forces applied at the end effector by the human operator. The entire system will be controlled via a cRIO-9047 embedded controller.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 services text-center"> 
+		<!-- <span class="icon icon-tools"></span> -->
+		<span style="font-size: 50px; color: DeepSkyBlue;"><i class="fas fa-code"></i></span>
+        <div class="services-content">
+          <h5>Control</h5>
+          <p>Several control designs will be implemented and compared with each other. Here are a few:</p>
+            <p>対称型　position-symmetric type<br/>力逆送型　force-reflecting type<br/>力帰還型　force-reflecting servo type<br/>力順送型　force-projecting type<br/>並列型　parallel type<br/>インピーダンス制御型　impedance control type<br/>加速度基準型　acceleration-based type</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- services section -->
+
+
+
+<!-- work section -->
+<section id="works" class="works section no-padding">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <div class="col-lg-4 col-md-4 col-sm-4 work"> <a href="images/mechanicaldesign.png" class="work-box"> <img src="images/mechanicaldesign.png" class="imgfit" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>Mechanical Design</h5>
+            <p style="padding: 15px">2-DOF Parallelogram-Shaped Robotic Arm</p>
+          </div>
+        </div>
+
+        </a> </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 work"> <a href="images/electricaldesign.png" class="work-box"> <img src="images/electricaldesign.png" class="imgfit" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>Electrical Design</h5>
+            <p style="padding: 15px">2 Motors and 1 Force Sensor For Each Arm, All Controlled Via cRIO Embedded Controller</p>
+          </div>
+        </div>
+
+        </a> </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 work"> <a href="images/controldesign.png" class="work-box"> <img src="images/controldesign.png" class="imgfit" alt="">
+          <div class="overlay">
+            <div class="overlay-caption">
+              <h5>Control Logic</h5>
+              <p style="padding: 15px">Force Projecting Bilateral Control Diagram</p>
+            </div>
+          </div>
+		  
+		  </a> </div>
+    </div>
+  </div>
+</section>
+<!-- work section -->
+
+
+
+<!-- our team section -->
+<section id="teams" class="section teams">
+<div class="container-fluid">
+	<div class="text-center">
+		<h3>About Group 46</h3>
+	</div>
+    <!-- <p>Cherry is a 4th year mechatronics engineering student at the University of Waterloo. She has a diverse range of experience in Management, Software Design, and Control Systems Engineering.</p>
+    <img class="img-fluid rounded" src="images/team.jpg" alt="">
+    
+    <div class="row"> -->
+	
+	<br></br><br></br>
+	
+	<div class="row">
+		<div class="col-6 col-md-4">
+			<div class="person"><img src="images/Cherry.jpg" alt="" class="img-responsive imgfit">
+          <div class="person-content" >
+            <h4>Cherry Zhang</h4>
+            <h5 class="role">Controls Engineer</h5>
+          </div>
+          <ul class="social-icons clearfix">
+            <li><a href="mailto:y689zhan@edu.uwaterloo.ca"><span class="fa fa-envelope"></span></a></li>
+			<li><a href="http://www.cherryzhang.net"><span class="fa fa-link"></span></a></li>
+          </ul>
+        </div>
+		</div>
+		<div class="col-12 col-md-8" style="padding-right: 10%">
+			<p>Cherry is a 4th year mechatronics engineering student at the University of Waterloo. She has a diverse range of experience in Management, Software Design, and Control Systems Engineering that she obtained from various co-ops (internships).</p>
+			<p>In terms of hobbies, she is interested in volunteering and tutoring high school students in STEM subjects, learning Japanese, building Gunpla, and playing Smash Bros Ultimate.</p>
+		</div>
+	</div>
+</div>
+</section>
+<!-- Solution section -->
+
+
+<!-- Footer section -->
+<footer class="footer">
+  <div class="footer-top section">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-6">
+          <h5>Contact</h5>
+          <p>200 University Ave W<br>
+            Waterloo, ON, Canada<br>
+            N2L 3G1 <br>
+            y689zhan@edu.uwaterloo.ca</p>
+          <p>Copyright © 2019 University of Waterloo. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- footer top -->
+
+</footer>
+<!-- Footer section -->
+<!-- JS FILES -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery.contact.js"></script>
+</body>
+</html>
