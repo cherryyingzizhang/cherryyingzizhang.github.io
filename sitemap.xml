@@ -6,28 +6,37 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
   <loc>http://cherryzhang.net/</loc>
-  <lastmod>2015-03-16T03:59:11+00:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <lastmod>2019-03-14T10:02:58+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://cherryzhang.net/index.html</loc>
-  <lastmod>2015-03-16T03:59:11+00:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <lastmod>2019-03-14T10:02:58+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://cherryzhang.net/Work.html</loc>
-  <lastmod>2015-03-16T03:59:11+00:00</lastmod>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
+  <lastmod>2019-03-14T10:02:58+00:00</lastmod>
+  <priority>0.50</priority>
 </url>
 <url>
   <loc>http://cherryzhang.net/cherryzhangresume.pdf</loc>
-  <lastmod>2015-03-16T03:59:11+00:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <lastmod>2019-03-14T10:02:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>http://cherryzhang.net/MSCI446/presentation.html</loc>
+  <lastmod>2019-03-14T10:02:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://cherryzhang.net/MTE482/</loc>
+  <lastmod>2019-03-14T10:02:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
